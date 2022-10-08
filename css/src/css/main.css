@@ -1,0 +1,46 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 1200px;
+}
+
+.nav-list {
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	padding-inline-start: 0;
+}
+
+.nav-list li {
+	margin: 0 8px;
+}
+
+.logo-img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.search-input {
+	display: block;
+	width: 400px;
+	margin: 24px auto;
+	border: 1px solid lightgray;
+	padding: 8px 16px;
+	border-radius: 10px;
+}
+
+.btn-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	border: none;
+	padding: 8px;
+	margin: 0 8px;
+	border-radius: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
