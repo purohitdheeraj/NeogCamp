@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	/* web-safe fonts */
+	font-family: "Trebuchet MS", "Lucida Sans Unicode",
+		"Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.card {
+	margin: 40px auto;
+	padding: 1rem;
+	border: 1px solid;
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+	/* using inheritance  property - will apply to other elements within card*/
+	text-align: center;
+}
+
+.avatar {
+	width: 180px;
+}
+
+.social {
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+/* utility class */
+
+.border-round {
+	border-radius: 10px;
+}
+
+.border-blue {
+	border: 4px dotted dodgerblue;
+}
